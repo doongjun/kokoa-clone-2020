@@ -7,7 +7,7 @@
     <title>Welcome to Kokoa Talk</title>
   </head>
   <body>
-    <div id="status-bar">
+    <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
@@ -16,8 +16,8 @@
         <span>18:53</span>
       </div>
       <div class="status-bar__column">
-        <span>110%</span>
-        <i class="fas fa-battery-full"></i>
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
     </div>
@@ -29,11 +29,10 @@
       </p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="password" />
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="password" />
       <input type="submit" value="Log In" />
-      <input type="submit" value="Sign Up" />
       <a href="#">Find Kokoa Account or Password</a>
     </form>
 
