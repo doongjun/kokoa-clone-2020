@@ -19,22 +19,8 @@
   position: absolute;
   top: -19px;
   right: -10px;
-  background-color: tomato;
-  width: 25px;
-  height: 25px;
-  border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: 600;
 }
 .nav__smallball {
-  position: absolute;
-  width: 6px;
-  height: 6px;
-  background-color: tomato;
   top: -12px;
   right: -5px;
-  border-radius: 20px;
 }
