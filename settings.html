@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>More - Kokoa Clone</title>
+    <title>Settings - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -22,70 +22,39 @@
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">More</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span
-          ><a href="setting.html"><i class="fas fa-cog fa-lg"></i></a
-        ></span>
-        <div class="screen-header__icons-i badge__small"></div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
       </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column"><i class="fas fa-search fa-lg"></i></div>
     </header>
-    <main class="main-screen more-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://avatars3.githubusercontent.com/u/66319788?s=460&u=d3442d3c6795a7fea64196eb68fb3cbf32a08a90&v=4"
-            class="user-component__avatar user-component__avatar--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">김동준</h4>
-            <h6 class="user-component__subtitle">
-              010 5638 3316 <i class="fas fa-info-circle"></i>
-            </h6>
+
+    <main class="main-screen">
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-bullhorn"></i><span>Notices</span>
           </div>
-        </div>
-        <div class="user-component__column">
-          <i class="far fa-comment-alt fa-2x"></i>
-        </div>
-      </div>
-      <div class="icon-row">
-        <div class="icon-row__icon">
-          <i class="far fa-calendar"></i><span>Calender</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="far fa-smile-beam"></i><span>Emoticons</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fas fa-paint-roller"></i><span>Themes</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fas fa-file-invoice-dollar"></i><span>Account</span>
-        </div>
-      </div>
-      <div class="more-suggestions">
-        <h4 class="more-suggestions__title">Suggestions</h4>
-        <div class="more-suggestions__icons">
-          <div class="more-suggestions__icon">
-            <div class="more-suggestions__icon-image">
-              <img
-                src="https://lh3.googleusercontent.com/proxy/ETuCXCNd-Yfv1Rq2XNe0i0vX2oYeynyuQC2VIUGdPX7ePo7EvlUx3j1qtPuOam0ik7i6ygHJmfTUU_ju58exq5HWQGGiStkRQi09mULJWl9XldLKsjyreceHFFboSXkLxnXCOq4Ato-EMJfWyDSRoUu-ddX3fK3XQ3zcTQxqvMMh2wKMiGtMYSEfEdDPaxCs6gpt"
-              />
-            </div>
-            <span class="more-suggestions__icon-text">Kakao story</span>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-flask"></i><span>Kokoa Lab</span>
           </div>
-          <div class="more-suggestions__icon">
-            <div class="more-suggestions__icon-image">
-              <img
-                src="https://ww.namu.la/s/452135c0507972ac84a1280a7830b665310aa8897090d235be7017e96a666979de058d542893689518a700f8631b368c86467ce37b7d9235e24e61de3e67704cb2d75cde95edf39bc5ddfb946d2551f50931dab7c85003eb10d4642de805d6d6"
-              />
-            </div>
-            <span class="more-suggestions__icon-text">League of Legends</span>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-info-circle"></i><span>Version</span>
           </div>
-        </div>
-      </div>
+          <div class="settings__setting-column">Latest Version</div>
+        </li>
+      </ul>
     </main>
 
     <nav class="nav">
