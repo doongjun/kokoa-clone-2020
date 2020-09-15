@@ -19,3 +19,14 @@
   right: -7px;
   top: -8px;
 }
+@keyframes spinCoganimation {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.screen-header__icons .fa-cog:hover {
+  animation: spinCoganimation 2s linear infinite;
+}
